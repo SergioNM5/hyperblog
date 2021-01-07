@@ -4,14 +4,21 @@ body {
     color: blue;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 #cabecera {
     background-color: blue;
     box-shadow: 0px 2px 20px 0px black;
-    color: red;
+    color:white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+#cabecera #tagline {
+    justify-content: right;
+    margin-left: 150px;
 }
 #cabecera #tagline {
     padding: 0 0 0 1em;
@@ -24,6 +31,7 @@ body {
     text-align: left;
     border: 1px solid gray;
     margin: 0 auto;
+    background-color: white;
 }
 #text {
     padding: 1em;
@@ -33,11 +41,7 @@ body {
     font-size: 20px;
 }
 
-#footer{
-    font-weight: bold;
-    color: white;
-    background-color: blue;
-    height: 5vh;
-    align-items: center;
-    justify-content: center;
+#cabecera #logo {
+    width: 30px;
+    height: 30px;
 }
