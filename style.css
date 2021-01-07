@@ -41,7 +41,11 @@ body {
     font-size: 20px;
 }
 
-#cabecera #logo {
-    width: 30px;
-    height: 30px;
+#footer{
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
 }
